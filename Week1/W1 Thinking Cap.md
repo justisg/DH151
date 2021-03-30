@@ -1,5 +1,6 @@
-# Mango Maps
+# Mango Map
 
+![Mango Map Homepage](./MangoMap.png)
 https://mangomap.com/
 
 This site's agenda is stated to help users create personalized and integrated web maps that are easy to use and insightful. They prioritize customizability as well. The maps created through Mango Map also allow for insights and show patterns. They are also available on all devices and are easily integrated. 
