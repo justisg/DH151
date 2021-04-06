@@ -20,16 +20,16 @@ body {
 .header {
 	grid-area: header;
 	padding:10px;
-	background-color: #333;
-	color: white;
+	background-color: rgb(163, 238, 200);
+	color: rgb(0, 0, 0);
 	font-size: 2em;
 }
 
 .sidebar {
 	grid-area: sidebar;
 	padding:10px;
-	background-color: #555;
-	color: white;
+	background-color: rgb(58, 175, 97);
+	color: rgb(0, 0, 0);
 }
 
 .content {
