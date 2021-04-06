@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Most Significant International Sporting Events</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/style1.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+	<div class="header">
+		Most Significant International Sporting Events 
+	</div>
+	<div class="sidebar">
+		I have mapped some of the most viewed and significant sporting events that occur internationally. There is a wide variety of events, infrastructure, and politics surrounding the locations in which these events are held. The wide variety also showcases that sporting events are a meaningful way to connect groups of people despite varied backgrounds, interests, and locations.
+	</div>
+	<div class="content">
+		<div id="map"></div>
+	</div>
+
+	<script>
+		var map = L.map('map').setView([37.850033,-113.6500523], 2);
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+		let data = [
+			{
+				'title':'FIFA World Cup 2022',
+				'description': 'Lusail Stadium; Qatar',
+				'lat': 25.4209,
+				'lon': 51.4904
+			},
+			{
+				'title':'Olympics 2021',
+				'description': 'Japan National Stadium; Tokyo, Japan',
+				'lat': 35.6779,
+				'lon': 139.7145
+			},
+			{
+				'title':'Tour De France 2021',
+				'description': 'Champs-Élysées; Paris, France',
+				'lat': 48.870502,
+				'lon': 2.304897
+			},
+			{
+				'title':'The Super Bowl 2021',
+				'description': 'Raymond James Stadium; Tampa, Florida',
+				'lat': 27.9759,
+				'lon': -82.5033
+			},
+			{
+				'title':'Wimbledon 2021',
+				'description': 'All England Club; London, England',
+				'lat': 51.4343,
+				'lon': 0.2145
+			},
+			{
+				'title':'Rugby World Cup 2021',
+				'description': 'Eden Park; Auckland, New Zealand',
+				'lat': -36.87166318,
+				'lon': 174.740163706
+			}		
+		]
+
+		var marker = L.marker([35.6779,139.7145]).addTo(map)
+			.bindPopup('Olympics 2021<br>Japan National Stadium; Tokyo, Japan')
+			.openPopup();
+		data.forEach(function(item){
+			var marker = L.marker([item.lat,item.lon]).addTo(map)
+				.bindPopup(item.title+'<br>'+item.description)
+				.openPopup();
+		});
+	</script>
+</body>
+</html> 
