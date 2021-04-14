@@ -4,4 +4,5 @@ Fall quarter this year, I took a course on UX/UI Design within the Digital Human
 
 ## Guest Speaker Questions: Alesha Unpingco
 Can you explain the best way you have found to prioritize your work in this field?
+
 How have you incorporated accessibility into your work?
