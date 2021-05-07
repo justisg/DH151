@@ -1,0 +1,7 @@
+# Week 6 Thinking Cap
+## Thick Mapping in Digital Humanities and How it Differs from Mapping
+
+Thick mapping, generally, is how the humanities utilize mapping and digitally represent places. Thick mapping emphasizes the changes that are constant in maps, especially when it is digital and can be updated live when new data is released. Maps connect to the humanities through the way they can be used to tell stories and show narratives. Digital humanities very basically is the connection between the traditional humanities and new digital medias and technologies. Thick mapping is unique in comparison to regular mapping as it is more fluid and focused on relationships between the involved variables. It is extremely layered and human-centered as well.
+
+## How does the theory of thick mapping inform narratives that are influencing your life?
+As someone who is very interested and passionate about environmentalism and current events, thick mapping is a great way to visualize and track the way in which the earth is changing. I believe that this strategy could be used very sucessfully in convincing voters and those in positions of political power to positively influence change. It is also a really beautiful concept and would be an amazing way to map significant event in someone's life and see how others have impacted them. Just seeing a map with data points is not necessarily enough to tell a story or make any points, but thick mapping is a way to visualize conclusions and show information.
